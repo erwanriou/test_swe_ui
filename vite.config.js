@@ -6,6 +6,7 @@ export default defineConfig({
   server: {
     host: true,
     port: 3000,
-    strictPort: true
+    strictPort: true,
+    allowedHosts: ["www.swe-challenge.dev"]
   }
 })
